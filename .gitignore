@@ -1,0 +1,64 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Local environment files and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.streamlit/secrets.toml
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs, temporary files, and backups
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+app_problem_backup.py
+
+# Packaging and build outputs
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Local Streamlit cache
+.streamlit/cache/
+
+# Local feedback or temporary experiment outputs
+*.sqlite3
+*.db
+
+# Keep project source, sample data, and tracked trained artifacts.
+# If model checkpoints are too large for GitHub, use Git LFS.
